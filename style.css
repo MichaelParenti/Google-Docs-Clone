@@ -1,0 +1,125 @@
+body{
+    background: #b3b3b3;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+::-webkit-scrollbar{
+    width: 20px;
+}
+::-webkit-scrollbar-track{
+    background: black;
+    border: none;
+}
+::-webkit-scrollbar-thumb{
+    background: linear-gradient(to right ,black,rgb(196, 196, 196),black);
+    border-radius: 0px;
+}
+#text{
+    border: none;
+    outline: none;
+    box-shadow: 0px 0px 10px 10px grey;
+    width: 750px;
+    height: 1000px;
+    margin: 150px 0px;
+    padding: 50px;
+    resize: none;
+    font-size: 12px;
+    overflow:hidden;
+}
+#controls{
+    width:100vw;
+    height: 100px;
+    top: 0px;
+    left: 0px;
+    overflow-x: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    box-shadow: 0px 0px 5px 5px grey;
+    overflow: hidden;
+    position: fixed;
+    background: rgb(99, 99, 99);
+}
+#controls img{
+    height:50%;
+}
+#row-1{
+    border: solid 5px #b3b3b3;
+    height: 70px;
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction:column;
+}
+#top button{
+    margin-bottom: 0px;
+}
+#top{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0px;
+}
+#bottom{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0px;
+}
+#row-2{
+    border: solid 5px #b3b3b3;
+    height: 40px;
+    padding: 20px;
+    display: flex;
+    align-content: space-around;
+    justify-content: center;
+    flex-direction:column;
+}
+#row-2 #text-color{
+    outline: none;
+    width: 90px;
+    height: 150px;
+    margin: 3px;
+    padding: 5px;
+    background: #b3b3b3;
+    text-align: center;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+}
+button{
+    outline: none;
+    width: 30px;
+    height: 30px;
+    margin: 3px;
+    background: #b3b3b3;
+    text-align: center;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+}
+select{
+    width: 60px;
+    outline: none;
+    background: #b3b3b3;
+    font-family: Arial Black, Helvetica, sans-serif;
+}
+/* #center{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+} */
+#title{
+    width: 200px;
+    outline: none;
+    background: #b3b3b3;
+    font-size: 18px;
+    font-family: Arial Black, Helvetica, sans-serif;
+    text-align: center;
+}
+/* #prt{
+    width: 100px;
+    margin: 10px;
+} */
